@@ -36,7 +36,8 @@ pip install pandas requests
 
 2. **Prepare Your CSV File**
    - Create or update a CSV file containing applicant data. 
-   - The default column structure in the configuration includes:
+   - The default column structure in the configuration is based on the survey questions.
+     It includes : 
      - **Source Language**: Language of the original source.
      - **Applicant Name: First & Family**: Full name of the applicant.
      - **CV**: URL to the CV file.
@@ -52,7 +53,7 @@ pip install pandas requests
 
 4. **Run the Script**
    ```bash
-   python translationfellowships.py
+   python applicationDownloadAutomation.py
    ```
 
 ## Configuration
