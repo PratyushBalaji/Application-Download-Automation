@@ -2,6 +2,8 @@
 
 This Python script automates the process of downloading and organising application materials for a certain organisation. The input data was a survey consisting of applicants' responses to filtering questions and links to their supporting materials
 
+It was created to aid with the organisation of the [New India Foundation](https://www.newindiafoundation.org/)'s 2023 Translation Fellowships.
+
 The script reads data from a CSV file, downloads specified files from URLs, and organizes them into folders based on applicant and language information.
 
 It's designed to be easily modified to include different CSV headers, files, etc and can be customised for your own applications and file structures.
